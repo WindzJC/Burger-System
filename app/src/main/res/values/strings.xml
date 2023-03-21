@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Burger System</string>
+    <string name="items_hint">Items</string>
+    <string name="name_hint">Name</string>
+    <string name="add_order_title">Order</string>
+    <string name="price_hint">Price</string>
+    <string name="add_order_button">Add Button</string>
+
+
+</resources>

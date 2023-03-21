@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/customer_name_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer Name" />
+
+    <EditText
+        android:id="@+id/edit_customer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter customer name here" />
+
+    <TextView
+        android:id="@+id/items_ordered_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Items Ordered" />
+
+    <EditText
+        android:id="@+id/items_ordered_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter items ordered here" />
+
+    <TextView
+        android:id="@+id/total_amount_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Amount" />
+
+    <EditText
+        android:id="@+id/total_amount_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter total amount here" />
+
+    <TextView
+        android:id="@+id/order_status_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Status" />
+
+    <EditText
+        android:id="@+id/order_status_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter orderActivity status here" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+</LinearLayout>
